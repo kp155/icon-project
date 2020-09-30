@@ -20,14 +20,57 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
+    text-align: center;
 }
 
-<style>.larger-image {
-    width: 100px;
+h1 {
+    font-family: arial;
+    font-size: 36px;
+    color: red;
+}
+
+h3 {
+    font-family: arial;
+    font-size: 24px;
+}
+
+h4 {
+    font-family: arial;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    font-style: italic;
+}
+
+p {
+    font-family: arial;
+    font-size: 16px;
+}
+
+.responsive {
+    width: 85%;
+    max-width: 1000px;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-</style>
+img {
+    border: 5px solid black;
+}
+
+div {
+    width: 85%;
+    max-width: 700px;
+    border: 5px solid #776d8a;
+    padding: 25px;
+    margin: auto;
+    display: block;
+    background-color: white;
+}
 
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
