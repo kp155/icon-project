@@ -21,21 +21,19 @@ html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
     text-align: center;
+    font-family: arial;
 }
 
 h1 {
-    font-family: arial;
     font-size: 36px;
-    color: red;
+    color: #27496d;
 }
 
 h3 {
-    font-family: arial;
     font-size: 24px;
 }
 
 h4 {
-    font-family: arial;
     text-align: center;
 }
 
@@ -44,14 +42,9 @@ h5 {
     font-style: italic;
 }
 
-p {
-    font-family: arial;
-    font-size: 16px;
-}
-
 .responsive {
-    width: 85%;
-    max-width: 1000px;
+    width: 95%;
+    max-width: 1200px;
     height: auto;
     display: block;
     margin-left: auto;
@@ -62,14 +55,38 @@ img {
     border: 5px solid black;
 }
 
+figcaption {
+    background-color: #f3e6e3;
+    color: black;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+}
+
 div {
     width: 85%;
     max-width: 700px;
     border: 5px solid #776d8a;
-    padding: 25px;
+    padding: 15px;
     margin: auto;
     display: block;
     background-color: white;
+}
+
+.fa-apple-alt {
+    color: red;
+}
+
+.fa-dollar-sign {
+    color: green;
+}
+
+.fa-hospital {
+    color: blue;
+}
+
+.fa-hands-helping {
+    color: brown;
 }
 
 /*********************************************************************
