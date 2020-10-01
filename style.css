@@ -73,6 +73,11 @@ div {
     background-color: white;
 }
 
+ol {
+    text-align: left;
+    font-size: 14px;
+}
+
 .fa-apple-alt {
     color: red;
 }
